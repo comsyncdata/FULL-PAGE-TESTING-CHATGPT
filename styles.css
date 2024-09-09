@@ -3,27 +3,33 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f9f9f9;
 }
 header {
     background: url('header-image.jpg') no-repeat center center/cover;
     height: 400px;
     text-align: center;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 header h1 {
-    padding-top: 150px;
-    font-size: 3rem;
+    font-size: 4rem;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
 }
 header button {
-    margin-top: 20px;
     padding: 15px 30px;
     font-size: 1rem;
     background-color: #03a39c;
     border: none;
     color: white;
     cursor: pointer;
+    border-radius: 5px;
 }
+
 section {
     padding: 40px;
     text-align: center;
@@ -31,13 +37,31 @@ section {
 .subscribe {
     margin: 20px 0;
 }
+.subscribe h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.subscribe p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.subscribe button {
+    padding: 10px 20px;
+    background-color: #03a39c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .content {
-    background: #f4f4f4;
+    background-color: #f4f4f4;
     padding: 50px 20px;
 }
 .content h2 {
     margin-bottom: 30px;
     color: #222F99;
+    font-size: 2rem;
 }
 .articles {
     max-width: 800px;
@@ -45,12 +69,21 @@ section {
     line-height: 1.6;
     color: #333;
 }
+
 .about-us {
     padding: 60px 20px;
     text-align: center;
     background-color: #222F99;
     color: white;
 }
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about-us p {
+    font-size: 1.2rem;
+}
+
 footer {
     background-color: #673EE6;
     color: white;
@@ -63,4 +96,5 @@ footer {
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
 }
