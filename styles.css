@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: url('header-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    text-align: center;
+    color: white;
+}
+header h1 {
+    padding-top: 150px;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+header button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #03a39c;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+.subscribe {
+    margin: 20px 0;
+}
+.content {
+    background: #f4f4f4;
+    padding: 50px 20px;
+}
+.content h2 {
+    margin-bottom: 30px;
+    color: #222F99;
+}
+.articles {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    color: #333;
+}
+.about-us {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #222F99;
+    color: white;
+}
+footer {
+    background-color: #673EE6;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.footer-btn {
+    background-color: #7949FF;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
